@@ -8,7 +8,8 @@ sudo apt install ffmpeg
 ```
 
 Use pyhton3 inside an anaconda/miniconda enviroment
-e.g. installation of miniconda
+
+**e.g. installation of miniconda**
 ```
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
@@ -37,8 +38,8 @@ sudo chown $USER:$USER /mnt/tmp
 
 ### make_products_MAIN.py
 
-makes sigma timex etc of a specified folder, uses multithreading using N_threads = N_threads_of_current_CPU
-uses the ```make_products_from_VIDEO_Files.py```
+makes products (sigma, sigma-color, timex, immax, immin) of a specified folder
+
 
 
 ## Results
@@ -49,8 +50,7 @@ Using a laptop with i7-3612QM CPU @ 2.10GHz and 8GB RAM needs about
 
 
 ## Authors list
-- Original (matlab) work by MV
-- Debugging (matlab version) by VT
+- Original (matlab code, not included in here) by MV and debugging (the matlab version) by VT
 - This (python) version: Tasos
 
 

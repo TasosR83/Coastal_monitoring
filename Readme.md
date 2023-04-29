@@ -35,7 +35,7 @@ sudo chown $USER:$USER /mnt/tmp
 
 ## What the codes contain:
 
-### make_products_MAIN_v10_3.py
+### make_products_MAIN.py
 
 makes sigma timex etc of a specified folder, uses multithreading using N_threads = N_threads_of_current_CPU
 uses the ```make_products_from_VIDEO_Files.py```
